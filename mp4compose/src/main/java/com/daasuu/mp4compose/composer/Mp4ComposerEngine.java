@@ -220,7 +220,7 @@ class Mp4ComposerEngine {
             final MediaFormat outputFormat = new MediaFormat();
             outputFormat.setString(MediaFormat.KEY_MIME, MediaFormat.MIMETYPE_AUDIO_AAC);
             outputFormat.setInteger(MediaFormat.KEY_AAC_PROFILE,
-                    MediaCodecInfo.CodecProfileLevel.AACObjectLD);
+                    MediaCodecInfo.CodecProfileLevel.AACObjectLC);
             outputFormat.setInteger(MediaFormat.KEY_SAMPLE_RATE,
                     inputFormat.getInteger(MediaFormat.KEY_SAMPLE_RATE));
             outputFormat.setInteger(MediaFormat.KEY_BIT_RATE, 128000);
